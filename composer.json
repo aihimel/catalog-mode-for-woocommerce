@@ -5,7 +5,7 @@
     "license": "gplv3-or-later",
     "autoload": {
         "psr-4": {
-            "Aihimel\\CatalogModeForWoocommerce\\": "inc/"
+            "Aihimel\\CatalogForWoocommerce\\": "inc/"
         }
     },
     "authors": [

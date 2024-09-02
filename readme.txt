@@ -1,4 +1,4 @@
-=== Catalog Mode For WooCommerce ===
+=== Catalogs For WooCommerce ===
 Contributors: aihimel
 Tags: catalog mode, woocommerce, vacation mode
 Requires at least: 5.8
