@@ -1,17 +1,17 @@
 <?php
-namespace Aihimel\CatalogModeForWoocommerce;
+namespace Aihimel\CatalogForWoocommerce;
 
 defined( 'ABSPATH' ) || exit;
 
-final class CatalogModeForWoocommerce {
-	private static CatalogModeForWoocommerce $instance;
-	private static array $container = [];
+final class CatalogForWoocommerce {
+	private static CatalogForWoocommerce $instance;
+	private static array                 $container = [];
 
 	private function __construct() {}
 
 	public static function get_instance( string $key = '' ) {
 		if ( empty( self::$instance ) ) {
-			self::$instance = new CatalogModeForWoocommerce();
+			self::$instance = new CatalogForWoocommerce();
 		}
 		if ( ! empty( $key) ) {
 			if ( isset( self::$container[ $key ] ) ) {
