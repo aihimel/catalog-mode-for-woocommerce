@@ -8,6 +8,7 @@
  * Author Email: toaihimel@gmail.com
  * Text Domain: catalog-mode-for-woocommerce
  * License: GPv3-or-later
+ * Requires Plugins: woocommerce
  */
 
 use Aihimel\CatalogModeForWoocommerce\CatalogModeForWoocommerce;
