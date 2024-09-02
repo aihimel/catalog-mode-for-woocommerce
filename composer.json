@@ -1,0 +1,19 @@
+{
+    "name": "aihimel/catalog-mode-for-woocommerce",
+    "description": "A catalog mode plugin for WooCommerce",
+    "type": "project",
+    "license": "gplv3-or-later",
+    "autoload": {
+        "psr-4": {
+            "Aihimel\\CatalogModeForWoocommerce\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aftabul Islam",
+            "email": "toaihimel@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
